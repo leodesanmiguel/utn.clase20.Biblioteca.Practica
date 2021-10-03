@@ -128,8 +128,7 @@ public class Pelicula {
 		if (!disponible) {
 			dispo = "INACTIVA";
 		}
-		rta+=
-			   "\n  Película clase " + clasifica.getCalificacion() + " : " 
+		rta+= "\n  Película clase " + clasifica.getCalificacion() + " : " 
 		     + nombre + " ("+ tituloOriginal + ")  " + dispo
 		     + "\n  Estreno: " + anoEstreno + " (" + duracion + " min)"
 		     + "\n  Origen : " + paisOrigen.getOrigen() + " <" + paisOrigen.getIdioma() + ">" 
